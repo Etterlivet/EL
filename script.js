@@ -148,8 +148,8 @@ function init() {
  * Call appserver
  */
 async function compute() {
-  // construct url for GET ./solve/definition.gh?name=value(&...)
-  const url = new URL('./solve/' + data.definition, window.location.origin)
+  // construct url for GET /solve/definition.gh?name=value(&...)
+  const url = new URL('/solve/' + data.definition, window.location.origin)
   Object.keys(data.inputs).forEach(key => url.searchParams.append(key, data.inputs[key]))
   console.log(url.toString())
   
