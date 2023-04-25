@@ -1,17 +1,17 @@
 require = require("esm")(module/*, options*/)
 
-//import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.126.0/build/three.module.js'
-//import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.126.0/examples/jsm/controls/OrbitControls.js'
-//import { Rhino3dmLoader } from 'https://cdn.jsdelivr.net/npm/three@0.126.0/examples/jsm/loaders/3DMLoader.js'
-//import rhino3dm from 'https://cdn.jsdelivr.net/npm/rhino3dm@0.15.0-beta/rhino3dm.module.js'
-//import { HDRCubeTextureLoader } from 'https://cdn.jsdelivr.net/npm/three@0.124.0/examples/jsm/loaders/HDRCubeTextureLoader.js'
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.126.0/build/three.module.js'
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.126.0/examples/jsm/controls/OrbitControls.js'
+import { Rhino3dmLoader } from 'https://cdn.jsdelivr.net/npm/three@0.126.0/examples/jsm/loaders/3DMLoader.js'
+import rhino3dm from 'https://cdn.jsdelivr.net/npm/rhino3dm@0.15.0-beta/rhino3dm.module.js'
+import { HDRCubeTextureLoader } from 'https://cdn.jsdelivr.net/npm/three@0.124.0/examples/jsm/loaders/HDRCubeTextureLoader.js'
 
 
-import * as THREE from './three.module.js'
-import { OrbitControls } from './OrbitControls.js'
-import { Rhino3dmLoader } from './3DMLoader.js'
-import rhino3dm from './rhino3dm.module.js'
-import { HDRCubeTextureLoader } from './HDRCubeTextureLoader.js'
+//import * as THREE from './three.module.js'
+//import { OrbitControls } from './OrbitControls.js'
+//import { Rhino3dmLoader } from './3DMLoader.js'
+//import rhino3dm from './rhino3dm.module.js'
+//import { HDRCubeTextureLoader } from './HDRCubeTextureLoader.js'
 
 
 let material = new THREE.MeshStandardMaterial( {
