@@ -54,9 +54,7 @@ let rhino, doc
 rhino3dm().then(async m => {
     rhino = m
     
-  
-    RhinoCompute.apiKey = "macad2022"
-    RhinoCompute.url = "https://macad2022.compute.rhino3d.com/"
+ 
     
     init()
     compute()
