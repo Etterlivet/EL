@@ -172,6 +172,9 @@ async function compute() {
       throw new Error(response.statusText)
     }
 
+    const responseBody = await response.text()  
+    console.log(responseBody) 
+    
     const responseJson = await response.json()
 
     collectResults(responseJson)
